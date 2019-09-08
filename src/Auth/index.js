@@ -10,8 +10,8 @@ class AuthProvider extends Component {
   state = { isAuthorized: false };
 
   auth0 = new auth0.WebAuth({
-    domain: "satansdeer.auth0.com",
-    clientID: "60YbEWG6aWwIuyM0FdZkqqm17tbONuKn",
+    domain: "pereclad.auth0.com",
+    clientID: "hxtMAW1ayRZsU0uWMwHVwXhdtINd5HBn",
     redirectUri: "http://localhost:3000/callback",
     responseType: "token id_token",
     scope: "openid"

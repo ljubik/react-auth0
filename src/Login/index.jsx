@@ -9,8 +9,8 @@ export default withAuth(({ isAuthorized, authorize }) =>
   ) : (
     <FlexWrapper>
       <Panel>
-        <h1>Вы не авторизованы</h1>
-        <Button onClick={authorize}>Авторизоваться</Button>
+        <h1>Ви не авторизовані</h1>
+        <Button onClick={authorize}>Авторизуватись</Button>
       </Panel>
     </FlexWrapper>
   )
